@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Profile</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: 'Verdana', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid green;
+    margin-top: 10px;
+}
+hr {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 20px auto;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color:red;
+}
+.about, .bio, .quote {
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+}
+.links {
+    text-align: right;
+    width: 45%;
+    margin: 20px auto;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page!</h1>
+        <p>Adult Education Instructor and Part-time Musician</p>
+    </header>
+    <hr>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi! My name is Chuck Zavos, and I'm none of your business-years-old.</p>
+        <p>My hobbies include reading, recording music, and following Kentucky Basketball.</p>
+        <p>Interests: classic movies, vinyl records, and politics.</p>
+        <img src="C:/Users/czavos/DSC_0076.jpg" alt="My Profile Picture">
+    </section>
+    <br>
+    <section class="bio">
+        <h2>My Bio</h2>
+        <p>"Aspiring game developer & part-time meme enthusiast"</p>
+    </section>
+    <br>
+    <section class="quote">
+        <h2>Favorite Quote</h2>
+        <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+    </section>
+    <hr>
+    <section class="links">
+        <h2>Cool Links</h2>
+        <p>Here are some of my favorite websites:</p>
+            <li><a class = "hover" href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    </section>
+</body>
+</html>
+
+
